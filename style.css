@@ -1,0 +1,43 @@
+/* toggle strikethrough on hittinh completed button  */
+.done {
+    text-decoration: line-through;
+    
+  }
+
+  .inputFeild {
+    text-align:center;
+  }
+
+  body { background-color:  #4da6ff
+    ;}
+
+
+ .list {
+
+    text-align: center;
+    padding-left: 0rem;
+    
+ }
+ 
+ li {list-style-type: none;
+padding-inline-start: 0rem;
+text-align: center;
+text-indent: 0;
+list-style-position: outside;;
+}
+
+button.BTN {
+
+align-self: flex-end; 
+border-radius: 10px;
+display: inline-block;  
+text-indent: 0;
+}
+
+@media (min-width: let say 400px) {
+    .class of that element {
+   display:block;
+   align-items: center;
+   justify-content: center;
+     }
+   }
